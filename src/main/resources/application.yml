@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+ application:
+  name: Banker
+ datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: Ashu@1234
+    url: jdbc:mysql://localhost/digibank
+    username: root
+ jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
